@@ -1,7 +1,13 @@
 # lorenzo-projects
 
 Housing_ML_Pipeline:
+An end-to-end machine-learning project predicting California housing prices.
 
-•	Developed a regression pipeline with feature engineering, imputation, standardization and categorical encoding, comparing linear, tree based and gradient boosting models.
+## Highlights
+- Built preprocessing pipelines for missing values, scaling, encoding, and feature engineering.
+- Compared Linear Regression, Decision Tree, Random Forest, Ridge, and Gradient Boosting.
+- Tuned Ridge and Gradient Boosting with 5-fold cross-validation.
+- Best model: Gradient Boosting, achieving test R² of 0.812.
 
-•	Investigated multicollinearity using correlation analysis and VIF, tuned Ridge & Gradient boosting models with 5 fold Grid Search, achieving test set R2 of 81.2%
+## Dataset
+California Housing dataset.
