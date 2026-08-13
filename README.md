@@ -1,6 +1,6 @@
 # lorenzo-projects
 
-Housing_ML_Pipeline:
+# Housing_ML_Pipeline:
 An end-to-end machine-learning project predicting California housing prices.
 
 ## Highlights
