@@ -2,4 +2,5 @@
 A collection of projects
 
 Housing_ML_Pipeline:
-A complete end-to-end machine learning pipeline for predicting California housing prices using linear regression, decision trees, and random forests.
+•	Developed a regression pipeline with feature engineering, imputation, standardization and categorical encoding, comparing linear, tree based and gradient boosting models.
+•	Investigated multicollinearity using correlation analysis and VIF, tuned Ridge & Gradient boosting models with 5 fold Grid Search, achieving test set R2 of 81.2%
