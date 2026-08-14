@@ -1,18 +1,22 @@
 # lorenzo-projects
 
-# MNIST Neural Network from Scratch
-A fully connected neural network built with NumPy to classify handwritten digits from the Kaggle Digit Recognizer dataset.
+# MNIST Neural Network from Scratch:
 
-The project implements forward propagation, backpropagation, ReLU activation, softmax output, gradient descent, validation, and image prediction without using machine-learning frameworks.
+A four-layer neural network built from scratch with NumPy to classify handwritten digits from Kaggle’s Digit Recognizer dataset.
 
-## Contents
-- Input layer: 784 values (28 × 28 grayscale pixels)
-- Hidden layer 1: 64 neurons with ReLU
-- Hidden layer 2: 64 neurons with ReLU
-- Output layer: 10 neurons with softmax, representing digits 0–9
+This project implements the full training process without machine-learning frameworks: forward propagation, backpropagation, ReLU activation, softmax classification, gradient descent, hyperparameter optimisation, model checkpointing, and Kaggle submission generation.
+
+## Model architecture
+The network contains four layers:
+
+- Input layer: 784 pixel features from a 28 × 28 grayscale image
+- Hidden layer 1: configurable number of neurons with ReLU activation
+- Hidden layer 2: configurable number of neurons with ReLU activation
+- Output layer: 10 neurons with softmax activation for digits 0–9
 
 ### Dataset
 Kaggle Digit recogniser. 
+
 
 # Housing_ML_Pipeline:
 An end-to-end machine-learning project predicting California housing prices.
